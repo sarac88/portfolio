@@ -1,0 +1,171 @@
+<html lang="es">
+	
+	<head>
+		
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>MUNDIMASAJES: Tu espacio de terapias naturales.</title>
+	    <link rel="shortcut icon" href="img/icono.png">
+
+		<!--  bootsrap  -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script src="https://use.fontawesome.com/e3e089d135.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+		<!--  CSS and JS  -->
+		<link href="css/style.css" rel="stylesheet" media="screen">
+		
+	</head>
+
+	<body>
+	<div id="wrap">
+		<!--|||| HEADER ||||-->
+
+		<nav class="navbar fixed-top navbar-toggleable-sm">
+			<div class="container d-flex">
+
+				<button class="b-main navbar-toggler-right hidden-md-up" type="button" data-toggle="collapse" data-target="#nav-mob" aria-controls="nav-mob" aria-expanded="false" aria-label="Toggle navigation">
+					<svg><use xlink:href="includes/defs.svg#navicon" /></svg>
+				</button>
+				
+				<button class="lupa navbar-toggler" type="button" data-toggle="collapse" data-target="#search-mob" aria-controls="search-mob" aria-expanded="false" aria-label="Toggle navigation">
+					<svg><use xlink:href="includes/defs.svg#0lupa" /></svg>
+				</button>
+
+		 		<a class="brand navbar-brand d-flex" href="index.html"><img src="img/logo.svg" width="40" height="40" class="d-inline-block">
+			  		<span class="align-self-center hidden-sm-down">mundimasajes</span>
+				</a>
+
+				  	<div class="collapse navbar-collapse justify-content-end" id="nav-mob">
+				  		<ul class="navbar-nav text-uppercase">
+						  	<li class="b-bottom nav-item">
+							<a class="nav-link" href="cuenta-favoritos.html">Favoritos</a>
+							</li>
+							<li class="b-bottom nav-item">
+							<a class="nav-link" href="cuenta-tus_anuncios.html">Tus anuncios</a>
+							</li>
+							<li class="b-bottom nav-item">
+							<a class="nav-link" href="publicar_un_anuncio.html">Pon tu anuncio</a>
+							</li>
+							<li class="hidden-xs-down nav-item">
+							<a class="nav-link" href="iniciar_sesion.html">Inicar sesión</a>
+							</li>
+							<li class="hidden-sm-up nav-item">
+							<a class="nav-link" href="cuenta-tu_perfil.html">Editar cuenta</a>
+							</li>
+						</ul>
+					</div>
+
+					<!--/// barra de buscador2 ((MOVIL)) ///-->	
+
+					<div class="collapse navbar-collapse" id="search-mob">
+						<div class="hidden-md-up">
+							  	<input class="m-mobile form-control" type="search" placeholder="¿Qué buscas?" id="example-search-input">
+							  <div class="m-mobile dropdown">
+								<input class="form-control" type="text" placeholder="Provincia, ciudad, CP...">
+							  </div>
+
+							  <select class="form control custom-select m-top">
+							  	<option value="">Categoría</option>
+					  			<option value="">TERAPIAS MANUALES</option>
+							    <option value="">TERAPIAS ENERGÉTICAS</option>
+							    <option value="">CURSOS</option>
+							    <option value="">PRODUCTOS</option>
+							  </select>
+
+							  <div class="btn-submit">
+							  	<a href="">BUSCAR</a>
+						</div>
+					</div>
+
+					<!--///end ((MOVIL))///-->
+
+		  	</div>
+		</nav>
+
+		<!--|||| CONTAINER ||||-->
+
+				<div class="container">
+
+					<div class="row">
+						<div class="col-lg-3"></div>
+
+						<div class="col-lg-6 formulario-pta">
+
+							<div>
+								<!--Añadir fotos-->	
+								<div class="file-input">
+									<span class="image"></span>
+									<p>Muestra fotos sobre tu servicio y aumentará el interés del público.</p>
+									<div>añade fotos</div>
+								</div>
+								
+								<!--Formularios-->	
+								<form>
+									<input type="text" placeholder="¿A qué te dedicas?" class="form-control">
+									<div style="position:relative">
+										<input type="text" placeholder="¿Qué precio pides?" class="form-control">
+										<span class="euro">€</span>
+									</div>
+									<textarea type="text" placeholder="¿Qué ofreces?" rows="6" class="form-control"></textarea>
+									<textarea type="text" rows="6" placeholder="Cuéntanos algo más sobre tí..." class="form-control"></textarea>
+								</form>
+
+								<!--categorias-->	
+								<select class="form control custom-select m-top">
+						  			<option value="">Categoría</option>
+						  			<option value="">TERAPIAS MANUALES</option>
+								    <option value="">TERAPIAS ENERGÉTICAS</option>
+								    <option value="">CURSOS</option>
+								    <option value="">PRODUCTOS</option>
+								</select>
+
+								<select class="form-control custom-select m-top">
+						  			<option value="">Subcategoría</option>
+								</select>
+							</div>
+
+							<div class="btn-tpa flex-row">
+								<div class= "d-flex justify-content-center">
+								<a href="">¡listo!</a>
+								</div>
+							</div>
+							
+						</div>
+						
+						<div class="col-lg-3"></div>
+					</div>
+				
+		</div>
+
+	<div id="push"></div>
+	</div>	
+
+		<!--|||| FOOTER ||||-->
+
+		<div id="footer-bottom">
+			
+
+			<div class="f-info  container-fluid">
+				<div class="container">
+					<div class="row">
+						<!--/*<div class="b-bottom hidden-sm-up col-12">
+							<p><a href="">Twitter - </a><a href="">Facebook</a></p>
+						</div>*-->
+						<div class="b-bottom hidden-sm-up col-12">
+							<p><a href="">condiciones de uso · </a><a href="">ayuda · </a><a href="">sitemap</a><br><a href="">política de cookies · </a><a href="">política de privacidad</a></p>
+						</div>
+						<div class="col-12">
+							<p>copyright © 2017 - actual<span class="hidden-xs-down">&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">condiciones de uso · </a><a href="">ayuda · </a><a href="">sitemap . </a><a href="">política de cookies · </a><a href="">política de privacidad</a></span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,515 @@
+<html lang="es">
+	
+	<head>
+		
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>MUNDIMASAJES: Tu espacio de terapias naturales.</title>
+	    <link rel="shortcut icon" href="img/icono.png">
+
+		<!--  bootsrap  -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script src="https://use.fontawesome.com/e3e089d135.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+		<!--  CSS and JS  -->
+		<link href="css/style.css" rel="stylesheet" media="screen">
+		<script src="js/hyphenate.js" type= "text/javascript"></script>	
+	</head>
+
+	<body>
+	<div id="wrap">
+		<!--|||| HEADER ||||-->
+
+		<nav class="navbar fixed-top navbar-toggleable-sm">
+			<div class="container d-flex">
+
+				<button class="b-main navbar-toggler-right hidden-md-up" type="button" data-toggle="collapse" data-target="#nav-mob" aria-controls="nav-mob" aria-expanded="false" aria-label="Toggle navigation">
+					<svg><use xlink:href="includes/defs.svg#navicon" /></svg>
+				</button>
+				
+				<button class="lupa navbar-toggler" type="button" data-toggle="collapse" data-target="#search-mob" aria-controls="search-mob" aria-expanded="false" aria-label="Toggle navigation">
+					<svg><use xlink:href="includes/defs.svg#0lupa" /></svg>
+				</button>
+
+		 		<a class="brand navbar-brand d-flex" href="index.html"><img src="img/logo.svg" width="40" height="40" class="d-inline-block">
+			  		<span class="align-self-center hidden-sm-down">mundimasajes</span>
+				</a>
+
+				  	<div class="collapse navbar-collapse justify-content-end" id="nav-mob">
+				  		<ul class="navbar-nav text-uppercase">
+						  	<li class="b-bottom nav-item">
+							<a class="nav-link" href="cuenta-favoritos.html">Favoritos</a>
+							</li>
+							<li class="b-bottom nav-item">
+							<a class="nav-link" href="cuenta-tus_anuncios.html">Tus anuncios</a>
+							</li>
+							<li class="b-bottom nav-item">
+							<a class="nav-link" href="publicar_un_anuncio.html">Pon tu anuncio</a>
+							</li>
+							<li class="hidden-xs-down nav-item">
+							<a class="nav-link" href="iniciar_sesion.html">Inicar sesión</a>
+							</li>
+							<li class="hidden-sm-up nav-item">
+							<a class="nav-link" href="cuenta-tu_perfil.html">Editar cuenta</a>
+							</li>
+						</ul>
+					</div>
+
+					<!--/// barra de buscador2 ((MOVIL)) ///-->	
+
+					<div class="collapse navbar-collapse" id="search-mob">
+						<div class="hidden-md-up">
+							  	<input class="m-mobile form-control" type="search" placeholder="¿Qué buscas?" id="example-search-input">
+							  <div class="m-mobile dropdown">
+								<input class="form-control" type="text" placeholder="Provincia, ciudad, CP...">
+							  </div>
+							  <select class="form control custom-select m-top">
+					  			<option value="">TERAPIAS MANUALES</option>
+							    <option value="">TERAPIAS ENERGÉTICAS</option>
+							    <option value="">CURSOS</option>
+							    <option value="">PRODUCTOS</option>
+							  </select>
+
+							  <div class="btn-submit">
+							  	<a href="">BUSCAR</a>
+						</div>
+					</div>
+
+					<!--///end ((MOVIL))///-->
+
+		  	</div>
+		</nav>
+
+		<!--|||| CONTAINER ||||-->
+
+				<div class="container">
+
+				<!--/// breadcrumb ///-->	
+
+					<div class="row">
+
+						<div class="col-lg-3"></div>
+						<div class="col-lg-9 col-md-12">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="#">mundimasajes</a></li>
+		  						<li class="breadcrumb-item"><a href="#">Barcelona</a></li>
+							  	<li class="breadcrumb-item active">terapias manuales</li>
+							</ol>
+						</div>
+
+					</div>
+
+				<!--/// barra de buscador ///-->	
+
+					<div class="row">
+						  	<div class="form-group col-lg-2 hidden-sm-down">
+						  		<div class="form-inline-md">
+								  	<input class="form-control" type="search" placeholder="¿Qué buscas?" id="example-search-input">
+								  	<input class="form-control m-top" type="text" placeholder="Provincia, ciudad, CP...">
+							  		<select class="form control custom-select m-top">
+							  			<option value="">Categoría</option>
+							  			<option value="">TERAPIAS MANUALES</option>
+									    <option value="">TERAPIAS ENERGÉTICAS</option>
+									    <option value="">CURSOS</option>
+									    <option value="">PRODUCTOS</option>
+									</select>
+
+									<select class="form-control custom-select m-top">
+							  			<option value="">Subcategoría</option>
+									</select>
+								</div>
+								  	<div class="btn-submit m-top">
+								  		<a href="">BUSCAR</a>
+								  	</div>
+						  	</div>
+						  	<div class="col-1 hidden-md-down"></div>
+
+						  	<!--/// CARDS ///-->	
+
+						  	<div class="col-lg-6 col-md-8 col-sm-12">
+
+								<!--::::bloque de un anuncio::::-->	
+								<div class="card">
+
+								<!-- ((MOVIL))fecha/tiempo de publicación -->	
+								  <div class="card-header hidden-sm-up">
+		    						<i class="fa fa-map-marker" aria-hidden="true">
+		    							<span>&nbsp;&nbsp;Mataró (02104)</span>
+		    						</i>
+		    						<a class="destacado" href="">DESTACADO</a>
+		    						<span style="float:right;">02/03/17&nbsp;&nbsp;</span>
+								  </div>
+
+								  <div class="d-flex">
+									  <div class="card-img">
+									  	<!-- foto de perfil -->
+										<div style="background-image:url(https://www.socialtools.me/blog/wp-content/uploads/2016/04/foto-de-perfil.jpg), url(../img/no-perfil.png);"></div>
+									  </div>
+									  <div class="card-block">
+									  	
+									  	<!-- precio y título -->
+									  	<div class="d-flex justify-content-between">
+										  <a href="servicio.html" class="hyphenate card-title align-self-center">Masaje Deportivo / Terapia Manual</a>
+										  <span class="star"></span>
+										</div>
+										<span class="price">12 € / hora</span>
+
+									    <!-- ((PC))links para contactar y compartir -->
+									    <div class="links hidden">
+									    	<a class="destacado" href="">DESTACADO</a>
+											<a href="#" class="card-link l-pink">contactar</a>
+											<a class="card-link share" href=""></a>
+										</div>
+									  </div>
+								  </div>
+
+								  <div class="card-footer text-muted d-flex justify-content-between hidden-xs-down">
+								  	<!-- ciudad y CP -->
+		    						<i class="fa fa-map-marker" aria-hidden="true">
+		    							<span>&nbsp;&nbsp;Mataró (02104)</span>
+		    						</i>
+		    						<!-- fecha de publicación -->
+		    						<span>02/03/17</span>
+		  						  </div>
+
+		  						  <div class="card-footer mobile-c d-flex justify-content-between hidden-sm-up">
+		  						  	<!-- ((MOVIL))links para contactar y compartir -->
+								  		<a href="#" class="card-link l-pink">contactar</a>
+										<a class="card-link share" href=""></a>
+		  						  </div>
+
+								</div>
+								<!--::::fin del bloque::::-->
+
+								<!--::::bloque de un anuncio::::-->	
+								<div class="card">
+
+								  <!-- ((MOVIL))fecha/tiempo de publicación -->	
+								  <div class="card-header hidden-sm-up">
+		    						<i class="fa fa-map-marker" aria-hidden="true">
+		    							<span>&nbsp;&nbsp;Mataró (02104)</span>
+		    						</i>
+		    				
+		    						<span style="float:right;">02/03/17&nbsp;&nbsp;</span>
+								  </div>
+
+								  <div class="d-flex">
+									  <div class="card-img">
+									  	<!-- foto de perfil -->
+										<div style="background-image:url(http://como-encontrar-parejas.es/wp-content/uploads/foto-de-perfil.jpg);"></div>
+									  </div>
+
+									  <div class="card-block">
+									  	<!-- precio y título -->
+									  	<div class="d-flex justify-content-between">
+										  <a href="servicio.html" class="hyphenate card-title align-self-center">Quiromasaje, masaje deportivo</a>
+										  <span class="star"></span>
+										</div>
+										<span class="price">12 € / hora</span>
+
+									    <!-- ((PC))links para contactar y compartir -->
+									    <div class="links hidden">
+											<a href="#" class="card-link l-pink">contactar</a>
+											<a class="card-link share" href=""></a>
+										</div>
+									  </div>
+
+								  </div>
+
+								  <div class="card-footer text-muted d-flex justify-content-between hidden-xs-down">
+								  	<!-- ciudad y CP -->
+		    						<i class="fa fa-map-marker" aria-hidden="true">
+		    							<span>&nbsp;&nbsp;Mataró (02104)</span>
+		    						</i>
+		    						<!-- fecha/tiempo de publicación -->
+		    						<span>02/03/17&nbsp;&nbsp;</span>
+		  						  </div>
+
+		  						  <div class="card-footer mobile-c d-flex justify-content-between hidden-sm-up">
+		  						  	<!-- ((MOVIL))links para contactar y compartir -->
+								  		<a href="#" class="card-link l-pink">contactar</a>
+										<a class="card-link share" href=""></a>
+		  						  </div>
+
+								</div>
+								<!--::::fin del bloque::::-->
+
+								<!--::::bloque de un anuncio::::-->	
+								<div class="card">
+
+								  <!-- ((MOVIL))fecha/tiempo de publicación -->	
+								  <div class="card-header hidden-sm-up">
+		    						<i class="fa fa-map-marker" aria-hidden="true">
+		    							<span>&nbsp;&nbsp;Mataró (02104)</span>
+		    						</i>
+		    		
+		    						<span style="float:right;">02/03/17&nbsp;&nbsp;</span>
+								  </div>
+
+								  <div class="d-flex">
+									  <div class="card-img">
+									  	<!-- foto de perfil -->
+										<div style="background-image:url(http://www.hopepsychologypractice.com/wp-content/uploads/2015/09/Profile-picture-1.jpg);"></div>
+									  </div>
+
+									  <div class="card-block">
+									  	<!-- precio y título -->
+									  	<div class="d-flex justify-content-between">
+										  <a href="servicio.html" class="hyphenate card-title align-self-center">quiromasaje, osteopatía, masaje deportivo</a>
+										  <span class="star"></span>
+										</div>
+										<span class="price">12 € / hora</span>
+
+									    <!-- ((PC))links para contactar y compartir -->
+									    <div class="links hidden">
+											<a href="#" class="card-link l-pink">contactar</a>
+											<a class="card-link share" href=""></a>
+										</div>
+									  </div>
+
+								  </div>
+
+								  <div class="card-footer text-muted d-flex justify-content-between hidden-xs-down">
+								  	<!-- ciudad y CP -->
+		    						<i class="fa fa-map-marker" aria-hidden="true">
+		    							<span>&nbsp;&nbsp;Mataró (02104)</span>
+		    						</i>
+		    						<!-- fecha/tiempo de publicación -->
+		    						<span>02/03/17&nbsp;&nbsp;</span>
+		  						  </div>
+
+		  						  <div class="card-footer mobile-c d-flex justify-content-between hidden-sm-up">
+		  						  	<!-- ((MOVIL))links para contactar y compartir -->
+								  		<a href="#" class="card-link l-pink">contactar</a>
+										<a class="card-link share" href=""></a>
+		  						  </div>
+
+								</div>
+								<!--::::fin del bloque::::-->
+
+								<!--::::bloque de un anuncio::::-->	
+								<div class="card">
+
+								  <!-- ((MOVIL))fecha/tiempo de publicación -->	
+								  <div class="card-header hidden-sm-up">
+		    						<i class="fa fa-map-marker" aria-hidden="true">
+		    							<span>&nbsp;&nbsp;Mataró (02104)</span>
+		    						</i>
+		    		
+		    						<span style="float:right;">02/03/17&nbsp;&nbsp;</span>
+								  </div>
+
+								  <div class="d-flex">
+									  <div class="card-img">
+									  	<!-- foto de perfil -->
+										<div style="background-image:url(http://www.christopherxjjensen.com/wp-content/gallery/profile-pics/Profile-Pic_2014-09-07_1000px.jpg);"></div>
+									  </div>
+
+									  <div class="card-block">
+									  	<!-- precio y título -->
+									  	<div class="d-flex justify-content-between">
+										  <a href="servicio.html" class="hyphenate card-title align-self-center">quiromasaje, osteopatía, masaje deportivo</a>
+										  <span class="star"></span>
+										</div>
+										<span class="price">12 € / hora</span>
+
+									    <!-- ((PC))links para contactar y compartir -->
+									    <div class="links hidden">
+											<a href="#" class="card-link l-pink">contactar</a>
+											<a class="card-link share" href=""></a>
+										</div>
+									  </div>
+
+								  </div>
+
+								  <div class="card-footer text-muted d-flex justify-content-between hidden-xs-down">
+								  	<!-- ciudad y CP -->
+		    						<i class="fa fa-map-marker" aria-hidden="true">
+		    							<span>&nbsp;&nbsp;Mataró (02104)</span>
+		    						</i>
+		    						<!-- fecha/tiempo de publicación -->
+		    						<span>02/03/17&nbsp;&nbsp;</span>
+		  						  </div>
+
+		  						  <div class="card-footer mobile-c d-flex justify-content-between hidden-sm-up">
+		  						  	<!-- ((MOVIL))links para contactar y compartir -->
+								  		<a href="#" class="card-link l-pink">contactar</a>
+										<a class="card-link share" href=""></a>
+		  						  </div>
+
+								</div>
+								<!--::::fin del bloque::::-->
+
+								<!--::::bloque de un anuncio::::-->	
+								<div class="card">
+
+								  <!-- ((MOVIL))fecha/tiempo de publicación -->	
+								  <div class="card-header hidden-sm-up">
+		    						<i class="fa fa-map-marker" aria-hidden="true">
+		    							<span>&nbsp;&nbsp;Mataró (02104)</span>
+		    						</i>
+		    		
+		    						<span style="float:right;">02/03/17&nbsp;&nbsp;</span>
+								  </div>
+
+								  <div class="d-flex">
+									  <div class="card-img">
+									  	<!-- foto de perfil -->
+										<div style="background-image:url(https://www.hotstarz.info/wp-content/uploads/2015/08/Karishma-kapoor.jpg);"></div>
+									  </div>
+
+									  <div class="card-block">
+									  	<!-- precio y título -->
+									  	<div class="d-flex justify-content-between">
+										  <a href="servicio.html" class="hyphenate card-title align-self-center">quiromasaje, osteopatía, masaje deportivo</a>
+										  <span class="star"></span>
+										</div>
+										<span class="price">12 € / hora</span>
+
+									    <!-- ((PC))links para contactar y compartir -->
+									    <div class="links hidden">
+											<a href="#" class="card-link l-pink">contactar</a>
+											<a class="card-link share" href=""></a>
+										</div>
+									  </div>
+
+								  </div>
+
+								  <div class="card-footer text-muted d-flex justify-content-between hidden-xs-down">
+								  	<!-- ciudad y CP -->
+		    						<i class="fa fa-map-marker" aria-hidden="true">
+		    							<span>&nbsp;&nbsp;Mataró (02104)</span>
+		    						</i>
+		    						<!-- fecha/tiempo de publicación -->
+		    						<span>02/03/17&nbsp;&nbsp;</span>
+		  						  </div>
+
+		  						  <div class="card-footer mobile-c d-flex justify-content-between hidden-sm-up">
+		  						  	<!-- ((MOVIL))links para contactar y compartir -->
+								  		<a href="#" class="card-link l-pink">contactar</a>
+										<a class="card-link share" href=""></a>
+		  						  </div>
+
+								</div>
+								<!--::::fin del bloque::::-->
+
+							</div>
+
+							<div class="col-lg-3 col-md-4 hidden-sm-down">
+						  		<!--/// TABLERO DE ANUNCIOS ///-->	
+							</div>
+
+					</div>
+				</div>
+
+	<div id="push"></div>
+	</div>	
+				<!--/// PAGINACIÓN ///-->
+
+				<nav aria-label="Page navigation">
+				  <ul class="pagination justify-content-center">
+
+				    <li class="page-item">
+				      <a class="page-link" href="#" aria-label="Previous">
+				        <i class="angle-left" aria-hidden="true"></i>
+				      </a>
+				    </li>
+
+				    <li class="page-item"><a class="page-link" href="#">1</a></li>
+				    <li class="page-item"><a class="page-link" href="#">2</a></li>
+				    <li class="page-item"><a class="page-link" href="#">3</a></li>
+				    <li class="page-item"><a class="page-link" href="#">...</a></li>
+				    
+
+				    <li class="page-item">
+				      <a class="page-link" href="#" aria-label="Next">
+				        <i class="angle-right" aria-hidden="true"></i>
+				      </a>
+				    </li>
+
+				  </ul>
+				</nav>
+		
+		<!--|||| FOOTER ||||-->
+
+		<div id="footer-bottom">
+
+			<!--
+			<div class="footer1 container-fluid hidden-xs-down">
+				<div class="container">
+					<div class="row">
+
+						<div class="tip col-3">
+							<a href=""><span>transporte</span></a>
+							<a href=""><li>mudanza</li></a>
+							<a href=""><span>fiestas y eventos</span></a>
+							<a href=""><li>despedidas de soltero</li></a>
+							<a href=""><li>cumpleaños</li></a>
+							<a href=""><li>fotógrafos</li></a>
+							<a href=""><li>músicos</li></a>
+						</div>
+
+						<div class="tip col-3">
+							<a href=""><span>reparaciones</span></a>
+							<a href=""><li>electricistas</li></a>
+							<a href=""><li>reparación electrodomésticos</li></a>
+							<a href=""><li>cerrajero</li></a>
+							<a href=""><li>informática</li></a>
+							<a href=""><li>cristaleros</li></a>
+							<a href=""><li>arreglo persianas</li></a>
+							<a href=""><span>videncia y tarot</span></a>
+							<a href=""><li>astrólogos</li></a>
+							<a href=""><li>tarotistas</li></a>
+						</div>
+
+						<div class="tip col-3">
+							<a href=""><span>belleza y salud</span></a>
+							<a href=""><li>peluqueria</li></a>
+							<a href=""><li>maquillador</li></a>
+							<a href=""><span>terapias y masaje</span></a>
+							<a href=""><li>fisioterapeuta</li></a>
+							<a href=""><li>osteopatia</li></a>
+							<a href=""><li>quiromasaje</li></a>
+						</div>
+
+						<div class="tip col-3">
+							<a href=""><span>reformas</span></a>
+							<a href=""><li>decoración y pinturas</li></a>
+							<a href=""><li>reformas y albañileria</li></a>
+							<a href=""><li>fontanero</li></a>
+							<a href=""><li>carpinteros</li></a>
+							<a href=""><span>servicios domésticos</span></a>
+							<a href=""><li>limpieza</li></a>
+							<a href=""><li>plancha</li></a>
+							<a href=""><li>arreglos de ropa</li></a>
+							<a href=""><li>cuidado de mayores</li></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			-->
+
+			<div class="f-info  container-fluid">
+				<div class="container">
+					<div class="row">
+						<!--/*<div class="b-bottom hidden-sm-up col-12">
+							<p><a href="">Twitter - </a><a href="">Facebook</a></p>
+						</div>*-->
+						<div class="b-bottom hidden-sm-up col-12">
+							<p><a href="">condiciones de uso · </a><a href="">ayuda · </a><a href="">sitemap</a><br><a href="">política de cookies · </a><a href="">política de privacidad</a></p>
+						</div>
+						<div class="col-12">
+							<p>copyright © 2017 - actual<span class="hidden-xs-down">&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">condiciones de uso · </a><a href="">ayuda · </a><a href="">sitemap . </a><a href="">política de cookies · </a><a href="">política de privacidad</a></span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

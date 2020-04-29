@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vegetarianismo.net</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+ 
+    <!-- CSS de Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/estilos.css" rel="stylesheet" media="screen">
+    <script src="js/hyphenate.js" type= " text/javascript "></script>
+ 
+    <!-- librerías opcionales que activan el soporte de HTML5 para IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+ 
+    <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+         incluir archivos JavaScript individuales de los únicos
+         plugins que utilices) -->
+    <script src="js/bootstrap.min.js" type= " text/javascript "></script>
+
+    <!-- js show/hidden -->
+
+    <script language="javascript" type="text/javascript">
+    function showHide(shID) {
+       if (document.getElementById(shID)) {
+          if (document.getElementById(shID+'-show').style.display != 'none') {
+             document.getElementById(shID+'-show').style.display = 'none';
+             document.getElementById(shID).style.display = 'block';
+          }
+          else {
+             document.getElementById(shID+'-show').style.display = 'block';
+             document.getElementById(shID).style.display = 'none';
+          }
+       }
+    }
+    </script>
+
+  </head>
+  <body>
+
+<!-- BARRA DE NAVEGACIÓN -->
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Desplegar navegación</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="index.html">
+            <img class="logotipo" alt="Brand" src="img/logo.svg">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">NOVEDADES</a></li>
+            <li class="active"><a href="#">RECETAS</a></li> 
+            <li><a href="ingredientes.html">INGREDIENTES</a></li>
+            <li class="dropdown">
+              <a href="articulos.html" class="dropdown-toggle" data-toggle="dropdown">ARTÍCULOS</a>
+                <ul class="dropdown-menu">
+                  <li><a href="articulos_de_vegetarianismo.html">VEGETARIANISMO</a></li>
+                  <li><a href="#">DERECHOS ANIMALES</a></li>
+                  <li><a href="#">NUTRICIÓN</a></li>
+                  <li><a href="#">DEPORTE</a></li>
+                </ul>
+            </li> 
+          <form class="navbar-form navbar-right visible-md visible-lg">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="">
+            </div>
+            <button type="submit"><span class="glyphicon glyphicon-search"></span></button>
+          </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<div class="container wrap">
+
+  <!-- CREMAS Y SOPAS -->
+
+  <div class="title1">
+    <h2><span>cremas y sopas</span></h2>
+  </div>
+
+  <div class="row thumbnail">
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="cremas_y_sopas_post_01.html">
+        <img src="img/2.categorias/a. cremas y sopas/1.png">
+        <h4>Vichyssoise,<br/>crema fría de puerros</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/a. cremas y sopas/3.2.jpg">
+        <h4>crema de zanahoria<br/>y patata</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/a. cremas y sopas/4.jpg">
+        <h4>sopa crudivegana<br/>de sandía</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/a. cremas y sopas/8.jpeg">
+        <h4>sopa de verduras</h4>
+      </a>
+    </div>
+  </div>
+
+  <!-- show/hidden -->
+
+  <button href="#" id="cremas_sopas-show" class="showLink" onclick="showHide('cremas_sopas');return false;">ver más recetas</button>
+
+  <div id="cremas_sopas" class="more">
+
+      <div class="row thumbnail">
+        <div class="col-md-3 col-sm-6 post-3">
+          <a href="">
+            <img src="img/2.categorias/a. cremas y sopas/5.jpg">
+            <h4>crema fría de<br/>pepino y aguacate</h4>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6 post-3">
+          <a href="">
+            <img src="img/2.categorias/a. cremas y sopas/6.jpg">
+            <h4>crema de zanahoria<br/>y calabaza</h4>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6 post-3">
+          <a href="">
+            <img src="img/2.categorias/a. cremas y sopas/7.jpg">
+            <h4>ajoblanco</h4>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6 post-3">
+          <a href="">
+            <img src="img/2.categorias/a. cremas y sopas/2.jpg">
+            <h4>crema de puerros</h4>
+          </a>
+        </div>
+      </div>
+  <button href="#" id="cremas_sopas-hide" class="hideLink" onclick="showHide('cremas_sopas');return false;">ocultar</button>
+
+  </div>
+
+  <!-- ENSALADAS Y ENSALADILLAS -->
+
+  <div class="title1">
+    <h2><span>ensaladas y ensaladillas</span></h2>
+  </div>
+
+  <div class="row thumbnail">
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/b. ensaladas y ensaladillas/1.jpg">
+        <h4>ensalada de naranja</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/b. ensaladas y ensaladillas/2.jpg">
+        <h4>ensalada de lentejas<br/>con pepino</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/b. ensaladas y ensaladillas/3.jpg">
+        <h4>ensalada de fruta<br/>y aguacate</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/b. ensaladas y ensaladillas/4.jpg">
+        <h4>ensalada con<br/>frutos secos</h4>
+      </a>
+    </div>
+  </div>
+
+  <!-- show/hidden -->
+
+  <button href="#" id="ensaladas_ensaladillas-show" class="showLink" onclick="showHide('ensaladas_ensaladillas');return false;">ver más recetas</button>
+
+  <div id="ensaladas_ensaladillas" class="more">
+
+      <div class="row thumbnail">
+        <div class="col-md-3 col-sm-6 post-3">
+          <a href="">
+            <img src="img/2.categorias/b. ensaladas y ensaladillas/6.jpg">
+            <h4>ensaladillla rusa vegana</h4>
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6 post-3">
+          <a href="">
+            <img src="img/2.categorias/b. ensaladas y ensaladillas/5.jpg">
+            <h4>ensalada de melón<br/>y menta</h4>
+          </a>
+        </div>
+      </div>
+
+  <button href="#" id="ensaladas_ensaladillas-hide" class="hideLink" onclick="showHide('ensaladas_ensaladillas');return false;">ocultar</button>
+      
+  </div>
+
+  <!-- PASTAS Y ARROCES -->
+
+  <div class="title1">
+    <h2><span>pastas y arroces</span></h2>
+  </div>
+
+  <div class="row thumbnail">
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/c. pastas y arroces/1.jpg">
+        <h4>espaguettis con<br/>tomate casero</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/c. pastas y arroces/2.jpg">
+        <h4>arroz con zanahoria<br/>y calabaza</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/c. pastas y arroces/3.jpg">
+        <h4>risotto con setas<br/>y leche de soja</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/i. croquetas y empanadillas/2.jpg">
+        <h4>croquetas de<br/>espinacas y pera</h4>
+      </a>
+    </div>
+  </div>
+
+  <!-- show/hidden -->
+
+  <button href="#" id="-show" class="showLink no-recepte" type="button" disabled="disabled" onclick="showHide('');return false;">ver más recetas</button>
+
+  <div id="" class="more">
+      
+  </div>
+
+  <!-- HAMBURGUESAS Y ALBÓNDIGAS -->
+
+  <div class="title1">
+    <h2><span>hamburguesas y albóndigas</span></h2>
+  </div>
+
+  <div class="row thumbnail">
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/d. hamburguesas y albondigas/1.jpg">
+        <h4>hamburguesa con<br/>soja texturizada</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/d. hamburguesas y albondigas/2.jpg">
+        <h4>hamburguesa de<br/>copos de avena</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/d. hamburguesas y albondigas/3.jpg">
+        <h4>albóndigas de quinoa con pimiento rojo</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/d. hamburguesas y albondigas/4.jpg">
+        <h4>albóndigas de<br/>espinacas y tofu</h4>
+      </a>
+    </div>
+  </div>
+
+  <!-- show/hidden -->
+
+  <button href="#" id="-show" class="showLink no-recepte" type="button" disabled="disabled" onclick="showHide('');return false;">ver más recetas</button>
+
+  <div id="" class="more">
+      
+  </div>
+
+  <!-- SETAS Y CHAMPIÑONES -->
+
+  <div class="title1">
+    <h2><span>setas y champiñones</span></h2>
+  </div>
+
+  <div class="row thumbnail">
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/e. setas y champinones/1.jpg">
+        <h4>champiñones a la vinagreta</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/e. setas y champinones/2.jpg">
+        <h4>paté vegetal de champiñón</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/e. setas y champinones/3.jpg">
+        <h4>níscalo al ajillo</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/e. setas y champinones/4.jpg">
+        <h4>crema de champiñones</h4>
+      </a>
+    </div>
+  </div>
+
+  <!-- show/hidden -->
+
+  <button href="#" id="-show" class="showLink no-recepte" type="button" disabled="disabled" onclick="showHide('');return false;">ver más recetas</button>
+
+  <div id="" class="more">
+      
+  </div>
+
+  <!-- LEGUMBRES -->
+
+  <div class="title1">
+    <h2><span>legumbres</span></h2>
+  </div>
+
+  <div class="row thumbnail">
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/f. legumbres/1.jpg">
+        <h4>ensalada de<br/>lentejas y arroz</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/f. legumbres/2.jpg">
+        <h4>ensalada de<br/>alubias rojas</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/f. legumbres/3.jpg">
+        <h4>hummus,<br/>paté de garbanzos</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/f. legumbres/4.jpg">
+        <h4>ensalada de<br/>judias blancas</h4>
+      </a>
+    </div>
+  </div>
+
+  <!-- show/hidden -->
+
+  <button href="#" id="-show" class="showLink no-recepte" type="button" disabled="disabled" onclick="showHide('');return false;">ver más recetas</button>
+
+  <div id="" class="more">
+      
+  </div>
+
+  <!-- CROQUETAS Y EMPANADILLAS -->
+
+  <div class="title1">
+    <h2><span>croquetas y empanadillas</span></h2>
+  </div>
+
+  <div class="row thumbnail">
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/i. croquetas y empanadillas/1.jpg">
+        <h4>croquetas de<br/>champiñones y puerro</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/i. croquetas y empanadillas/2.jpg">
+        <h4>croquetas de<br/>espinacas y pera</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/i. croquetas y empanadillas/3.jpg">
+        <h4>empanadilla de alga</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/i. croquetas y empanadillas/4.jpg">
+        <h4>falafel,<br/>croquetas de garbanzos</h4>
+      </a>
+    </div>
+  </div>
+
+  <!-- show/hidden -->
+
+  <button href="#" id="-show" class="showLink no-recepte" type="button" disabled="disabled" onclick="showHide('');return false;">ver más recetas</button>
+
+  <div id="" class="more">
+      
+  </div>
+
+  <!-- POSTRES Y DULCES -->
+
+  <div class="title1">
+    <h2><span>postres y dulces</span></h2>
+  </div>
+
+  <div class="row thumbnail">
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/g. postres y dulces/1.jpg">
+        <h4>banana porridge,<br/>avena para el desayuno</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/g. postres y dulces/2.jpg">
+        <h4>panacotta vegana</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/g. postres y dulces/3.jpg">
+        <h4>magdalenas veganas</h4>
+      </a>
+    </div>
+    <div class="col-md-3 col-sm-6 post-3">
+      <a href="">
+        <img src="img/2.categorias/g. postres y dulces/4.png">
+        <h4>tarta de aguacate</h4>
+      </a>
+    </div>
+  </div>
+
+  <!-- show/hidden -->
+
+ <button href="#" id="-show" class="showLink no-recepte" type="button" disabled="disabled" onclick="showHide('');return false;">ver más recetas</button>
+
+  <div id="" class="more">
+      
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+
+    <footer>
+        <div>copyright © Vegetarianismo.net 2016 <div class="contact"><span>·</span> <a href="" style="font-size:10px">QUIÉNES SOMOS</a> | <a href="" style="font-size:10px">TWITTER</a> | <a href="" style="font-size:10px">FACEBOOK</a></div></div>
+    </footer> 
+
+</body>
+</html>
