@@ -929,3 +929,7 @@ footer p{
 .box p{
 	padding-top: 10px;
 }
+
+video {
+    margin-top: 50px;
+}
